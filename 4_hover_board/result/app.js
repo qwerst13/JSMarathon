@@ -1,6 +1,6 @@
 const board = document.getElementById('board');
 const SQUARES_NUMBER = 400;
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'cyan', 'lime']
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'cyan', 'lime'];
 
 for (let i=0; i<SQUARES_NUMBER; i++) {
   const sqare = document.createElement('div');
